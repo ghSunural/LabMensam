@@ -1,0 +1,25 @@
+{
+  "name": "labmensam",
+  "version": "1.0.0",
+  "description": "geo-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghSunural/LabMensam.git"
+  },
+  "keywords": [
+    "гео",
+    "расчет",
+    "сервис",
+    "агрессивность"
+  ],
+  "author": "Malakhov Aleksandr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghSunural/LabMensam/issues"
+  },
+  "homepage": "https://github.com/ghSunural/LabMensam#readme"
+}
