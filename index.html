@@ -2,7 +2,223 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
+    <title>LabMensam</title>
+    <link href="../LabMensam/com_css/common-styles.css" rel="stylesheet">
+    <link href="../LabMensam/com_css/buttons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../LabMensam/css/index.css">
+    <link rel="stylesheet" href="../LabMensam/css/gridAGin.css">
+    <link rel="stylesheet" href="../LabMensam/css/gridAGinfo.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="com_js/commonFunc.js"></script>
+    <script type="text/javascript" src="js/SurveyObject.js"></script>
 </head>
-<body>
+<body class="mainForm">
+
+<header class="header-site">
+    <div class="logo">
+        <div class="logo__title-site">LabMensam</div>
+    </div>
+</header>
+<article class="workspace d-block">
+    <section class="wrapper d-flex_nowrap">
+        <article class="menu">
+            <ul>
+                <li>
+                    <a href="" target="">Агрессивность грунтов</a>
+                </li>
+                <li>
+                    <a href="" target="">Агрессивность воды</a>
+                </li>
+                <li>
+                    <a href="" target="">Справка</a>
+                </li>
+                <li>
+                    <a href="" target="">Настройки</a>
+                </li>
+                <li>
+                    <a href="" target="">О программе</a>
+                </li>
+                <li>
+                    <a href="https://nodejs.org/en/download/" target="_blank" title="Node">Скачать Node.js</a>
+                </li>
+                <li>
+                <a href="http://caniuse.com/#search=grid" target="_blank">grid</a>
+                </li>
+                <li>
+                    chrome://flags/#enable-experimental-web-platform-features><br>
+                    http://electron.atom.io/
+                </li>
+            </ul>
+        </article>
+        <article class="wrapper managerLayout">
+            <article class="general-info">
+                <section class="block__caption">
+                    Карточка объекта
+                </section>
+                <div class="block3d">Трехмерный блок</div>
+                <button class="img-button add-new-object" id="addNewObject" title="Создать новый объект">
+                <button class="img-button save-to-localStorage" onclick="saveToLocalStorage()"
+                        title="Сохранить локально"></button>
+
+                    <input type="file" class="img-button save-to-localStorage" onclick="return confirm('Хотите скачать?');"
+                            title="Сохранить локально">
+                    <div>
+                    <input class="img-button open-file" type="file" title="Открыть существующий объект">
+                </div>
+                <section class="syrvey-object_title s-table">
+                    <input class="input-cell s-row" type="text" id="surveyObject-title-mark_d" title=""
+                           placeholder="Шифр объекта">
+                    <textarea class="input-cell s-row" onchange="setTitle()" id="surveyObject-title-name_d"
+                              title=""
+                              placeholder="Наименование"></textarea>
+                </section>
+
+            </article>
+            <article class="lab-info">
+                <section class="block__caption">
+                    Лабораторное определение свойств грунта
+                </section>
+                <section class="wrapper d-flex">
+                    <article class="table sample-ground_info">
+                        <section class="table__caption sample-info">
+                            Проба грута
+                        </section>
+                        <section class="table__body d-grid bg table_sample-ground">
+                            <div class="cell label-cell sample-ground-labNo_l">Лабораторный номер</div>
+                            <input class="cell input-cell sample-ground-labNo_in" type="number" min="0"
+                                   id="sample-ground-labNo_in"
+                                   title=""
+                                   placeholder="Лаб. номер"/>
+                            <div class="cell label-cell sample-ground-ege_l">ИГЭ</div>
+                            <input class="cell input-cell sample-ground-ege_in" type="text"
+                                   id="sample-ege_in"
+                                   title=""
+                                   placeholder="ИГЭ"/>
+                            <div class="cell label-cell sample-ground-hole_l">Выработка</div>
+                            <div class="cell label-cell sample-ground-hole-kind_l">вид</div>
+                            <select class="cell input-cell sample-ground-hole-kind_in" id="hole-kind_in">
+                                <option onselect="">Скважина</option>
+                                <option onselect="">Шурф</option>
+                            </select>
+                            <div class="cell label-cell sample-ground-hole-no_l">№</div>
+                            <input class="cell input-cell sample-ground-hole-no_in" type="number" min="0"
+                                   id="hole-no_in"
+                                   title="Введите номер выработки"
+                                   placeholder="№"/>
+                            <div class="cell label-cell sample-ground-hole-depth_l">глубина</div>
+                            <input class="cell input-cell sample-ground-hole-depth_in" type="text"
+                                   id="hole-depth_in"
+                                   title="Введите глубину скважины"
+                                   placeholder="глубина"/>
+                            <div class="cell label-cell sample-ground-get-date_l">дата</div>
+                            <input class="cell input-cell sample-ground-get-date_in" type="date"
+                                   id="sample-ground-get-date_in"
+                                   title=""
+                                   placeholder="Дата отбора"/>
+                            <div class="cell label-cell temperatura_l">
+                                Среднегодовая температура воздуха t &deg;C
+                            </div>
+                            <input class="cell input-cell temperatura_in" type="text"
+                                   id="temperatura_in"
+                                   title=""
+                                   placeholder="температура"/>
+                            <div class="cell label-cell wet_l">Зона влажности</div>
+                            <select class="cell input-cell wet_in" id="wet_in">
+                                <option onselect="">Влажная</option>
+                                <option onselect="">Сухая</option>
+                                <option onselect="">Нормальная</option>
+                            </select>
+                        </section>
+                    </article>
+
+                    <article class="table ground-cemical-property_in">
+                        <section class="table__caption properties_c">
+                            Свойства грунтов по результатам лабораторных исследований
+                        </section>
+                        <section class="table__body d-grid bg table_ground-cemical-property">
+                            <div class="cell label-cell cemical-properties_l">Химические</div>
+                            <div class="cell label-cell instance-content">
+                                Содержание, мг на 1 кг грунта
+                            </div>
+                            <div class="cell label-cell instance-content__SO42_l">
+                                SO
+                                <span class="sub">4</span>
+                                <span class="super">2-</span></div>
+                            <input class="cell input-cell instance-content__SO42_d" type="text"
+                                   id="sampleGround-prop-cemical__SO42_inData"
+                                   title=""
+                                   placeholder="SO42"/>
+                            <div class="cell label-cell instance-content__Cl_h">Cl-</div>
+                            <input class="cell input-cell instance-content__Cl_d" type="text"
+                                   id="sampleGround-prop-cemical__Cl_inData"
+                                   title=""
+                                   placeholder="Cl"/>
+                            <div class="cell label-cell M_l">Массовая доля компонентов,
+                                % от массы воздушно-сухой пробы
+                            </div>
+                            <div class="cell label-cell M__gumus_l">органика (гумус)</div>
+                            <input class="cell input-cell M__gumus_d" type="text"
+                                   id="sampleGround-prop-cemical__gumus_inData"
+                                   title=""
+                                   placeholder="гумус"/>
+                            <div class="cell label-cell M__NO3_l">Нитрат-ион NO3-</div>
+                            <input class="cell input-cell M__NO3_d" type="text"
+                                   id="sampleGround-prop-cemical__mNO3_inData"
+                                   title=""
+                                   placeholder="NO"/>
+                            <div class="cell label-cell M__Cl_l">Хлор-ион Cl-</div>
+                            <input class="cell input-cell M__Cl_d" type="text"
+                                   id="sampleGround-prop-cemical__mCl_inData"
+                                   title=""
+                                   placeholder="Cl"/>
+                            <div class="cell label-cell M__Fe_l">Ион-железа Fe3+</div>
+                            <input class="cell input-cell M__Fe_d" type="text" id="sampleGround-prop-cemical__Fe_inData"
+                                   title=""
+                                   placeholder="Fe"/>
+                            <div class="cell label-cell pH_l">pH</div>
+                            <input class="cell input-cell pH_d" type="text" id="sampleGround-prop-cemical__pH_inData"
+                                   title=""
+                                   placeholder="pH"/>
+
+                            <div class="cell label-cell electrical-properties_l">Электрофизические</div>
+                            <div class="cell label-cell ro_l">Удельное электрическое сопротивление</div>
+                            <input class="cell input-cell ro_d" type="text" id="sampleGround-prop-cemical__ro_inData"
+                                   title=""
+                                   placeholder="ro"/>
+                            <div class="cell label-cell I_l">Средняя плотность катодного тока I</div>
+                            <input class="cell input-cell I_d" type="text" id="sampleGround-prop-cemical__I_inData"
+                                   title=""
+                                   placeholder="I"/>
+                        </section>
+                    </article>
+                </section>
+            </article>
+            <article class="report">
+                <div class="reportTools">
+                    <a class="img-button print-preview-button" title="Просмотр"
+                       href="../LabMensam/forms/reportGround/reportFormAg.html"
+                       target="_blank">fff</a>
+                    <button class="img-button reportButton test" onclick="test('Lab', 'ТТТТТ')">тест</button>
+                </div>
+
+                <input id="close" class="close" type="checkbox" checked>
+                <label for="close">&curlyeqsucc;</label>
+
+                <iframe id="reportFrame" class="reportFrame" src="../LabMensam/forms/reportGround/reportFormAg.html"
+                        scrolling="auto">
+                    Ваш браузер не поддерживвает фреймы
+                </iframe>
+
+            </article>
+        </article>
+    </section>
+</article>
+<article class="footer">
+    <div>O программе</div>
+</article>
+
+<article class="modal" id="modal">
+    <div>МОДАЛЬНОЕ ОКНО</div>
+</article>
 </body>
 </html>

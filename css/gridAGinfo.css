@@ -1,0 +1,83 @@
+.table_sample-ground {
+
+    grid-template-areas:
+            "labNo_l labNo_l labNo_in"
+            "ege_l ege_l ege_in"
+            "hole_l kind_l kind_in"
+            "hole_l hole-no_l hole-no_in"
+            "hole_l hole-depth_l hole-depth_in"
+            "get-date_l get-date_l get-date_in "
+            "temperatura_l temperatura_l temperatura_in"
+            "wet_l wet_l wet_in";
+
+}
+
+.sample-ground-labNo_l {
+    grid-area: labNo_l;
+}
+
+.sample-ground-labNo_in {
+    grid-area: labNo_in;
+}
+
+.sample-ground-ege_l {
+    grid-area: ege_l;
+}
+
+.sample-ground-ege_in {
+    grid-area: ege_in;
+}
+
+.sample-ground-hole_l {
+    grid-area: hole_l;
+}
+
+.sample-ground-hole-kind_l {
+    grid-area: kind_l;
+}
+
+.sample-ground-hole-kind_in {
+    grid-area: kind_in;
+}
+
+.sample-ground-hole-no_l {
+    grid-area: hole-no_l;
+}
+
+.sample-ground-hole-no_in {
+    grid-area: hole-no_in;
+}
+
+.sample-ground-hole-depth_l {
+    grid-area: hole-depth_l;
+}
+
+.sample-ground-hole-depth_in {
+    grid-area: hole-depth_in;
+}
+
+.sample-ground-get-date_l {
+    grid-area: get-date_l;
+}
+
+.sample-ground-get-date_in {
+    grid-area: get-date_in;
+}
+
+.temperatura_l {
+    grid-area: temperatura_l;
+}
+
+.temperatura_in {
+    grid-area: temperatura_in;
+}
+
+.wet_l {
+    grid-area: wet_l;
+}
+
+.wet_in {
+    grid-area: wet_in;
+}
+
+

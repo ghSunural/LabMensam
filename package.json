@@ -16,10 +16,13 @@
     "сервис",
     "агрессивность"
   ],
-  "author": "Malakhov Aleksandr",
+  "author": "Malakhov Alexandr",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ghSunural/LabMensam/issues"
   },
-  "homepage": "https://github.com/ghSunural/LabMensam#readme"
+  "homepage": "https://github.com/ghSunural/LabMensam#readme",
+  "dependencies": {
+    "testjs": "^1.0.4"
+  }
 }
