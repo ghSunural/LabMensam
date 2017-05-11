@@ -4486,51 +4486,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="funcLib.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCLib/funcLib.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="96" column="6" lean-forward="true" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="totalGroundPage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/totalGroundPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SNIPS.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsCLib/SNIPS.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="457" column="6" lean-forward="false" selection-start-line="457" selection-start-column="6" selection-end-line="457" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AgReportPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/AgReportPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="69" column="27" lean-forward="false" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+            <state relative-caret-position="6615">
+              <caret line="245" column="44" lean-forward="false" selection-start-line="245" selection-start-column="44" selection-end-line="245" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1_gridTotalGP.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/totalGroundPage/css/1_gridTotalGP.css">
+      <file leaf-file-name="mainPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/mainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="1242">
+              <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -4539,8 +4509,78 @@
       <file leaf-file-name="entrySampleGroundPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/entrySampleGroundPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="118" column="32" lean-forward="false" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="83" />
+            <state relative-caret-position="3969">
+              <caret line="147" column="26" lean-forward="false" selection-start-line="147" selection-start-column="26" selection-end-line="147" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="onLoad.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/entrySampleGroundPage/js/onLoad.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-542">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TSurveyObject.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCLib/TSurveyObject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-243">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/entrySampleGroundPage/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/mainPage/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="surveyObjectPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/surveyObjectPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1539">
+              <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="funcLib.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsCLib/funcLib.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="999">
+              <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="onLoad.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/mainPage/js/onLoad.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -4577,6 +4617,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/forms/mainForm/css/mainForm.css" />
+        <option value="$PROJECT_DIR$/forms/surveyObjectForm/surveyObjectForm.html" />
+        <option value="$PROJECT_DIR$/forms/mainForm/mainForm.html" />
+        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/js/funcLib.js" />
         <option value="$PROJECT_DIR$/forms/entrySampleGroundForm/entrySampleGroundForm.html" />
         <option value="$PROJECT_DIR$/js/eventHandlers.js" />
@@ -4599,6 +4643,7 @@
         <option value="$PROJECT_DIR$/jsCLib/groundSample.js" />
         <option value="chrome-extension://gomekmidlodglbbmalcneegieacbdmki/common/scripts/content.aos.js" />
         <option value="$PROJECT_DIR$/mainPage/js/index.js" />
+        <option value="$PROJECT_DIR$/subPages/entrySampleGroundPage/js/onLoad.js" />
         <option value="$PROJECT_DIR$/subPages/surveyObjectPage/surveyObjectPage.html" />
         <option value="$PROJECT_DIR$/_workfiles/empty/index.html" />
         <option value="$PROJECT_DIR$/jsCLib/S2031185_tableV1.js" />
@@ -4609,25 +4654,20 @@
         <option value="$PROJECT_DIR$/subPages/entrySampleGroundPage/entrySampleGroundPage.html" />
         <option value="$PROJECT_DIR$/subPages/reportGroundPage/AgReportPage.html" />
         <option value="$PROJECT_DIR$/jsCLib/Global.js" />
+        <option value="$PROJECT_DIR$/subPages/entrySampleGroundPage/js/index.js" />
         <option value="$PROJECT_DIR$/subPages/reportGroundPage/css/0_AgReportPage.css" />
         <option value="$PROJECT_DIR$/cssCLib/cssCLib.css" />
         <option value="$PROJECT_DIR$/jsCLib/TWaterGround.js" />
         <option value="$PROJECT_DIR$/jsCLib/SNIPS.js" />
-        <option value="$PROJECT_DIR$/subPages/entrySampleGroundPage/css/gridAGinfo.css" />
-        <option value="$PROJECT_DIR$/subPages/reportGroundPage/js/onLoad.js" />
-        <option value="$PROJECT_DIR$/subPages/entrySampleGroundPage/css/entrySampleGroundButtons.css" />
-        <option value="$PROJECT_DIR$/subPages/entrySampleGroundPage/js/onLoad.js" />
-        <option value="$PROJECT_DIR$/subPages/entrySampleGroundPage/js/index.js" />
         <option value="$PROJECT_DIR$/jsCLib/TGroundSample.js" />
-        <option value="$PROJECT_DIR$/html/mainPage.html" />
-        <option value="$PROJECT_DIR$/pages/entrySampleGroundPage/js/onLoad.js" />
-        <option value="$PROJECT_DIR$/pages/entrySampleGroundPage/js/index.js" />
-        <option value="$PROJECT_DIR$/jsCLib/funcLib.js" />
-        <option value="$PROJECT_DIR$/pages/totalGroundPage/js/onLoad.js" />
-        <option value="$PROJECT_DIR$/html/AgReportPage.html" />
+        <option value="$PROJECT_DIR$/subPages/reportGroundPage/js/onLoad.js" />
         <option value="$PROJECT_DIR$/html/entrySampleGroundPage.html" />
-        <option value="$PROJECT_DIR$/html/totalGroundPage.html" />
-        <option value="$PROJECT_DIR$/pages/totalGroundPage/css/1_gridTotalGP.css" />
+        <option value="$PROJECT_DIR$/jsCLib/funcLib.js" />
+        <option value="$PROJECT_DIR$/html/mainPage.html" />
+        <option value="$PROJECT_DIR$/pages/mainPage/js/index.js" />
+        <option value="$PROJECT_DIR$/html/surveyObjectPage.html" />
+        <option value="$PROJECT_DIR$/html/AgReportPage.html" />
+        <option value="$PROJECT_DIR$/pages/mainPage/js/onLoad.js" />
       </list>
     </option>
   </component>
@@ -4648,10 +4688,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1384" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -4668,7 +4708,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -4694,8 +4733,22 @@
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="totalGroundPage" />
+              <option name="myItemId" value="LabMensam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabMensam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="surveyObjectPage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -4713,29 +4766,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="totalGroundPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabMensam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabMensam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="totalGroundPage" />
+              <option name="myItemId" value="surveyObjectPage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -4756,22 +4787,8 @@
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LabMensam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabMensam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportGroundPage" />
+              <option name="myItemId" value="mainPage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -4789,33 +4806,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="reportGroundPage" />
+              <option name="myItemId" value="mainPage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabMensam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabMensam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reportGroundPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -4887,23 +4882,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabMensam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabMensam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cssCLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4935,7 +4917,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.totalGroundPage.html">
+  <component name="RunManager" selected="JavaScript Debug.mainPage.html">
+    <configuration default="false" name="entrySampleGroundPage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LabMensam/subPages/entrySampleGroundPage/entrySampleGroundPage.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="funcLib.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="funcLib.js" working-dir="$PROJECT_DIR$/jsCLib">
+      <method />
+    </configuration>
     <configuration default="false" name="entrySampleGroundPage.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LabMensam - копия/html/entrySampleGroundPage.html">
       <method />
     </configuration>
@@ -4943,12 +4931,6 @@
       <method />
     </configuration>
     <configuration default="false" name="mainPage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LabMensam/html/mainPage.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="totalGroundPage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LabMensam/html/totalGroundPage.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="AgReportPage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LabMensam/html/AgReportPage.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -4991,7 +4973,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
+      <command value="run-script" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -5011,19 +4993,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.entrySampleGroundPage.html (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.entrySampleGroundPage.html (2)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.mainPage.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.totalGroundPage.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.AgReportPage.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.entrySampleGroundPage.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.funcLib.js" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.entrySampleGroundPage.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.entrySampleGroundPage.html (2)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.mainPage.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.totalGroundPage.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.AgReportPage.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.entrySampleGroundPage.html (2)" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.mainPage.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.entrySampleGroundPage.html (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.mainPage.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.entrySampleGroundPage.html (2)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.entrySampleGroundPage.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.entrySampleGroundPage.html" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.funcLib.js" />
       </list>
     </recent_temporary>
   </component>
@@ -5149,38 +5131,39 @@
       <workItem from="1493657966019" duration="21000" />
       <workItem from="1493724755981" duration="1327000" />
       <workItem from="1493779614425" duration="1871000" />
-      <workItem from="1494059179005" duration="9864000" />
-      <workItem from="1494258516540" duration="6795000" />
-      <workItem from="1494499364387" duration="3890000" />
+      <workItem from="1494059179005" duration="3743000" />
+      <workItem from="1494232710338" duration="1726000" />
+      <workItem from="1494234629239" duration="1838000" />
+      <workItem from="1494236721338" duration="399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="546936000" />
+    <option name="totallyTimeSpent" value="534093000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1384" height="738" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17165668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26061493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17406143" sideWeight="0.50798404" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12286689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41716567" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27474403" sideWeight="0.49201596" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12286689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3327645" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18088737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18664384" sideWeight="0.49201596" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -5204,6 +5187,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jsLib/commonFunc.js" />
+    <entry file="file://$PROJECT_DIR$/subForms/entrySampleGroundForm/js/handlerList.js" />
+    <entry file="file://$PROJECT_DIR$/mainForm/js/eventHandlers.js" />
+    <entry file="file://$PROJECT_DIR$/subForms/entrySampleGroundForm/js/eventHandlers.js" />
+    <entry file="file://$PROJECT_DIR$/mainForm/js/index.js" />
     <entry file="file://$PROJECT_DIR$/mainForm/js/onLoad.js" />
     <entry file="file://$PROJECT_DIR$/subForms/entrySampleGroundForm/css/entrySampleGroundButtons.css" />
     <entry file="file://$PROJECT_DIR$/subForms/entrySampleGroundForm/js/onLoad.js" />
@@ -5234,21 +5222,16 @@
     <entry file="file://$PROJECT_DIR$/mainPage/js/index.js" />
     <entry file="file://$PROJECT_DIR$/mainPage/js/onLoad.js" />
     <entry file="file://$PROJECT_DIR$/subPages/reportGroundPage/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/subPages/entrySampleGroundPage/js/onLoad.js" />
     <entry file="file://$PROJECT_DIR$/subPages/reportGroundPage/AgReportPage.html" />
+    <entry file="file://$PROJECT_DIR$/subPages/entrySampleGroundPage/js/index.js" />
     <entry file="file://$PROJECT_DIR$/jsCLib/Global.js" />
     <entry file="file://$PROJECT_DIR$/subPages/reportGroundPage/css/5_gridAgCorrOnMet.css" />
+    <entry file="file://$PROJECT_DIR$/cssCLib/cssCLib.css" />
     <entry file="file://$PROJECT_DIR$/subPages/reportGroundPage/css/0_AgReportPage.css" />
-    <entry file="file://$PROJECT_DIR$/jsCLib/TWaterGround.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/subPages/entrySampleGroundPage/css/gridAGinfo.css" />
-    <entry file="file://$PROJECT_DIR$/subPages/entrySampleGroundPage/js/onLoad.js" />
-    <entry file="file://$PROJECT_DIR$/subPages/entrySampleGroundPage/css/entrySampleGroundButtons.css" />
-    <entry file="file://$PROJECT_DIR$/subPages/entrySampleGroundPage/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/jsCLib/TWaterGround.js" />
+    <entry file="file://$PROJECT_DIR$/jsCLib/SNIPS.js" />
+    <entry file="file://$PROJECT_DIR$/jsCLib/TGroundSample.js" />
     <entry file="file://$PROJECT_DIR$/subPages/reportGroundPage/js/onLoad.js" />
     <entry file="file://$PROJECT_DIR$/html/LabMensam.bat">
       <provider selected="true" editor-type-id="text-editor">
@@ -5257,128 +5240,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/mainPage.html">
+    <entry file="file://$PROJECT_DIR$/jsCLib/funcLib.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="43" />
+        <state relative-caret-position="999">
+          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/entrySampleGroundPage/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/entrySampleGroundPage/js/onLoad.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsCLib/funcLib.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="96" column="6" lean-forward="true" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/totalGroundPage/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/totalGroundPage/js/onLoad.js">
+    <entry file="file://$PROJECT_DIR$/html/mainPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/reportGroundPage/css/1_gridAgCemProp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsCLib/TSurveyObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsCLib/TGroundSample.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssCLib/cssCLib.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/reportGroundPage/css/3_gridAgCl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1242">
+          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/entrySampleGroundPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="118" column="32" lean-forward="false" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="83" />
+        <state relative-caret-position="3969">
+          <caret line="147" column="26" lean-forward="false" selection-start-line="147" selection-start-column="26" selection-end-line="147" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsCLib/SNIPS.js">
+    <entry file="file://$PROJECT_DIR$/pages/mainPage/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="457" column="6" lean-forward="false" selection-start-line="457" selection-start-column="6" selection-end-line="457" selection-end-column="6" />
+        <state relative-caret-position="189">
+          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/surveyObjectPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/AgReportPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="69" column="27" lean-forward="false" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+        <state relative-caret-position="6615">
+          <caret line="245" column="44" lean-forward="false" selection-start-line="245" selection-start-column="44" selection-end-line="245" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/totalGroundPage.html">
+    <entry file="file://$PROJECT_DIR$/jsCLib/TSurveyObject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="-243">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/totalGroundPage/css/1_gridTotalGP.css">
+    <entry file="file://$PROJECT_DIR$/pages/entrySampleGroundPage/js/onLoad.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="-542">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/mainPage/js/onLoad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

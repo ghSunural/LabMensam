@@ -1,0 +1,107 @@
+body {
+
+}
+
+.block3d {
+    border: 2px solid green;
+    background-color: #7cbcff;
+    text-align: center;
+    vertical-align: sub;
+    width: 250px;
+    height: 70px;
+    transform-style: preserve-3d;
+    transform: translateX(50px) perspective(30px) translateZ(0px) rotateY(10deg);
+    color: brown;
+    margin: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.block3d:hover {
+    transform-style: preserve-3d;
+    transform: translateX(0px) perspective(500px) translateZ(0px) rotateY(0deg);
+    transition: .5s;
+}
+
+.mainForm {
+    display: block;
+    font: 20px 'Times New Roman', 'Arial', sans-serif;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo__title-site {
+    font: 40px 'Times New Roman', serif;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: #ffd700 2px 2px;
+    letter-spacing: 5px;
+    vertical-align: middle;
+}
+
+.header-site {
+    display: block;
+    border: 1px solid;
+    background: linear-gradient(to right, #000000, #f7f7f7);
+    height: 70px;
+}
+
+.workspace {
+    position: relative;
+    border: 1px solid;
+}
+
+.menu {
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    border: 1px solid #960000;
+    background: linear-gradient(to right, #7cbcff 90%, #ea7a00 90%);
+    max-width: 400px;
+    width: 250px;
+    padding-right: 5%;
+
+}
+
+
+.lab-info{
+    background: #5f9ea0;
+    border: 1px solid #960000;
+    margin: 2px;
+}
+
+.managerLayout {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #cecece, #f5f5dc 50%);
+    width: 100%;
+}
+
+.footer {
+    box-sizing: border-box;
+    border: 1px solid;
+    background: linear-gradient(to left, #000000, #f7f7f7);
+    height: 70px;
+}
+
+.toolbar{
+    box-sizing: border-box;
+    border: 1px solid #960000;
+    background: #7cbcff;
+    width: 500px;
+    height: 200px;
+    margin: 10px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+

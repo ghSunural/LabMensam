@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Агрессивноть грунтов</title>
+
+    <script type="text/javascript" src="../../jsCLib/funcLib.js"></script>
+    <script type="text/javascript" src="../../jsCLib/TSurveyObject.js"></script>
+    <script type="text/javascript" src="../../jsCLib/TGroundSample.js"></script>
+    <script type="text/javascript" src="../../jsCLib/SNIPS.js"></script>
+
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <link href="../../cssCLib/cssCLib.css" rel="stylesheet">
+    <link href="css/entrySampleGroundPage.css" rel="stylesheet">
+    <link href="css/entrySampleGroundButtons.css" rel="stylesheet">
+    <link href="css/gridAGin.css" rel="stylesheet">
+    <link href="css/gridAGinfo.css" rel="stylesheet">
+
+
+</head>
+<body class="entrySampleGroundForm d-flex_nowrap">
+<section class="sampleList d-block">
+    <header class="block__caption">
+        Список проб
+    </header>
+    <div class="toolbar">
+        <button class="img-button addNewSampleGroundButton"
+                id="addNewSampleGroundButton"
+                title="Добавить"></button>
+        <button class="img-button deleteSampleGroundButton"
+                id="deleteSampleGroundButton"
+                title="Удалить"></button>
+    </div>
+
+</section>
+<section class="sampleData d-block">
+
+    <header class="block__caption">
+        Лабораторное определение свойств грунта
+    </header>
+    <div class="toolbar">
+
+        <button class="img-button amendSampleButton"
+                id="amendSampleButton"
+                title="Внести данные"></button>
+        <button class="img-button reportCompleteButton"
+                id="reportCompleteButton"
+                title="Отчет"></button>
+
+    </div>
+
+    <section class="wrapper d-flex">
+        <!--method="GET"-->
+        <form name="entrySampleGroundInputForm" id="entrySampleGroundInputForm">
+
+           <!-- <div class="toolbar">
+                <button class="img-button print-preview-button"
+                        id="getEntryData"
+                        type="submit"></button>
+            </div> -->
+            <article class="table sample-ground_info">
+                <header class="table__caption sample-info">
+                    Проба грута
+                </header>
+                <section class="table__body d-grid bg table_sample-ground">
+                    <div class="cell label-cell sample-ground-labNo_l">Лабораторный
+                    номер</div>
+                    <input class="cell input-cell sample-ground-labNo_in"
+                           type="number"
+                           id="labNo"
+                           name="labNo"
+                           title=""
+                           min="0"
+                           placeholder="Лаб. номер"/>
+                    <div class="cell label-cell sample-ground-ege_l">ИГЭ</div>
+                    <input class="cell input-cell sample-ground-ege_in" type="text"
+                           id="IGE"
+                           name="IGE"
+                           title="ИГЭ"
+                           placeholder="ИГЭ"/>
+                    <div class="cell label-cell sample-ground-hole_l">Выработка</div>
+                    <div class="cell label-cell sample-ground-hole-kind_l">вид</div>
+                    <select class="cell input-cell sample-ground-hole-kind_in"
+                            id="holeKind"
+                            name="holeKind">
+                        <option class="input-cell">-</option>
+                        <option class="input-cell">Скважина</option>
+                        <option class="input-cell">Шурф</option>
+                    </select>
+                    <div class="cell label-cell sample-ground-hole-no_l">№</div>
+                    <input class="cell input-cell sample-ground-hole-no_in" type="number" min="0"
+                           id="holeNo"
+                           name="holeNo"
+                           title="Введите номер выработки"
+                           placeholder="�"/>
+                    <div class="cell label-cell sample-ground-hole-depth_l">глубина</div>
+                    <input class="cell input-cell sample-ground-hole-depth_in" type="text"
+                           id="holeDepth"
+                           name="holeDepth"
+                           title="Введите глубину скважины"
+                           placeholder="глубина"/>
+                    <div class="cell label-cell sample-ground-get-date_l">Дата
+                    отбора
+                    пробы</div>
+                    <input class="cell input-cell sample-ground-get-date_in" type="date"
+                           id="getDate"
+                           name="getDate"
+                           title=""
+                           placeholder="Дата отбора"/>
+
+                </section>
+            </article>
+            <article class="table ground-cemical-property_in">
+                <header class="table__caption properties_c">
+                    Свойства грунтов по результатам лабораторных исследований
+                </header>
+                <section class="table__body d-grid bg table_ground-cemical-property">
+                    <div class="cell label-cell cemical-properties_l">Химические</div>
+                    <div class="cell label-cell instance-content">
+                        Содержание, мг
+                        на
+                        1
+                        кг
+                        грунта
+                    </div>
+                    <div class="cell label-cell instance-content__SO42_l">
+                        SO
+                        <span class="sub">4</span>
+                        <span class="super">2-</span></div>
+                    <input class="cell input-cell instance-content__SO42_d" type="text"
+                           id="sampleGround-prop-cemical__SO42_inData"
+                           title=""
+                           placeholder="SO42"/>
+                    <div class="cell label-cell instance-content__Cl_h">Cl -</div>
+                    <input class="cell input-cell instance-content__Cl_d" type="text"
+                           id="sampleGround-prop-cemical__Cl_inData"
+                           title=""
+                           placeholder="Cl"/>
+                    <div class="cell label-cell M_l">Массовая
+                    доля
+                    компонентов,
+                    %
+                    от
+                    массы
+                    воздушно - сухой
+                    пробы
+                    </div>
+                    <div class="cell label-cell M__gumus_l">органика(гумус)</div>
+                    <input class="cell input-cell M__gumus_d" type="text"
+                           id="sampleGround-prop-cemical__gumus_inData"
+                           title=""
+                           placeholder="гумус"/>
+                    <div class="cell label-cell M__NO3_l">Нитрат - ион
+                    NO3 -</div>
+                    <input class="cell input-cell M__NO3_d" type="text"
+                           id="sampleGround-prop-cemical__mNO3_inData"
+                           title=""
+                           placeholder="NO"/>
+                    <div class="cell label-cell M__Cl_l">Хлор - ион
+                    Cl -</div>
+                    <input class="cell input-cell M__Cl_d" type="text"
+                           id="sampleGround-prop-cemical__mCl_inData"
+                           title=""
+                           placeholder="Cl"/>
+                    <div class="cell label-cell M__Fe_l">Ион - железа
+                    Fe3 +</div>
+                    <input class="cell input-cell M__Fe_d" type="text" id="sampleGround-prop-cemical__Fe_inData"
+                           title=""
+                           placeholder="Fe"/>
+                    <div class="cell label-cell pH_l">pH</div>
+                    <input class="cell input-cell pH_d" type="text" id="sampleGround-prop-cemical__pH_inData"
+                           title=""
+                           placeholder="pH"/>
+
+                    <div class="cell label-cell electrical-properties_l">Электрофизические</div>
+                    <div class="cell label-cell ro_l">Удельное
+                    электрическое
+                    сопротивление</div>
+                    <input class="cell input-cell ro_d" type="text" id="sampleGround-prop-cemical__ro_inData"
+                           title=""
+                           placeholder="ro"/>
+                    <div class="cell label-cell I_l">Средняя
+                    плотность
+                    катодного
+                    тока
+                    I</div>
+                    <input class="cell input-cell I_d" type="text" id="sampleGround-prop-cemical__I_inData"
+                           title=""
+                           placeholder="I"/>
+                </section>
+            </article>
+
+
+
+        </form>
+    </section>
+</section>
+</body>
+
+<script type="text/javascript" src="js/onLoad.js"></script>
+
+</html>

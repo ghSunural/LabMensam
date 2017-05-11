@@ -1,0 +1,13 @@
+.surveyObjectForm{
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+    font: 20px 'Times New Roman', 'Arial', sans-serif;
+    background: linear-gradient(to right, #cecece, #f5f5dc 50%);
+    border: 2px solid #00008b;
+}
+
+.survey-object_title .input-cell{
+    width: 500px;
+    margin: 10px;
+}

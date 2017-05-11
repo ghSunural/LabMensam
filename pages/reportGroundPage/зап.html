@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Отчет: агрессивность грунтов</title>
+    <script type="text/javascript" src="../../jsCLib/funcLib.js"></script>
+    <script type="text/javascript" src="../../jsCLib/TSurveyObject.js"></script>
+    <script type="text/javascript" src="../../jsCLib/TGroundSample.js"></script>
+    <script type="text/javascript" src="../../jsCLib/SNIPS.js"></script>
+
+    <script type="text/javascript" src="js/index.js"></script>
+
+
+    <link href="../../cssCLib/cssCLib.css" rel="stylesheet">
+    <link href="css/0_AgReportPage.css" rel="stylesheet">
+    <link href="css/1_gridAgCemProp.css" rel="stylesheet">
+    <link href="css/2_gridAgSulph.css" rel="stylesheet">
+    <link href="css/3_gridAgCl.css" rel="stylesheet">
+    <link href="css/4_gridAgCorr.css" rel="stylesheet">
+    <link href="css/5_gridAgCorrOnMet.css" rel="stylesheet">
+
+</head>
+<body class="pageA4">
+<header>
+    <div class="annex">Приложение <span class="litera">Lit</span></div>
+    <div class="list">Лист <span class="noList">noList</span></div>
+    <div class="annex-name">Результат определения агрессивности грунтов</div>
+</header>
+<article class="title d-flex_nowrap">
+    <div class="objectMark_l">Объект № <span class="objectMark_d" id="objectMark">00-000-00</span></div>
+    <div class="objectName" id="objectName">Покачевский-камеральный</div>
+</article>
+<article class="temperatura d-flex_nowrap">
+    <div class="temperatura_l">Среднегодовая температура воздуха t &deg;C</div>
+    <div class="temperatura_d">t &deg;C</div>
+</article>
+<article class="wet d-flex_nowrap">
+    <div class="wet_l">Зона влажности</div>
+    <div class="wet_d">---</div>
+</article>
+<section class="wrapper d-flex_nowrap sample-ground-description">
+    <article class="table sample-ground-info_t">
+        <section class="table__caption sample-info">
+
+        </section>
+        <section class="table__body d-grid sample-ground_tb">
+            <div class="cell label-cell sample-ground-labNo_l">Лабораторный номер</div>
+            <div class="cell data-cell sample-ground-labNo_d" id="labNo">---</div>
+            <div class="cell label-cell sample-ground-ege_l">ИГЭ</div>
+            <div class="cell data-cell sample-ground-ege_d" id="IGE">108t</div>
+            <div class="cell label-cell sample-ground-hole_l">Выработка</div>
+            <div class="cell label-cell sample-ground-hole-kind_l">вид</div>
+            <div class="cell data-cell sample-ground-hole-kind_d" id="holeKind">---</div>
+            <div class="cell label-cell sample-ground-hole-no_l">№</div>
+            <div class="cell data-cell sample-ground-hole-no_d" id="holeNo">---</div>
+            <div class="cell label-cell sample-ground-hole-depth_l">глубина</div>
+            <div class="cell data-cell sample-ground-hole-depth_d" id="holeDepth">---</div>
+            <div class="cell label-cell sample-ground-get-date_l">Дата</div>
+            <div class="cell data-cell sample-ground-get-date_d" id="date">---</div>
+
+        </section>
+    </article>
+    <article class="table ground-property_t">
+        <section class="table__caption properties_tc">
+
+        </section>
+        <section class="table__body d-grid ground-property_tb">
+            <div class="cell label-cell cemical-properties_l">Химические</div>
+            <div class="cell label-cell instance-content">
+                Содержание, мг на 1 кг грунта
+            </div>
+            <div class="cell label-cell instance-content__SO42_l">
+                SO
+                <span class="sub">4</span>
+                <span class="super">2-</span></div>
+            <div class="cell data-cell instance-content__SO42_d" id="SO42">SO42</div>
+
+            <div class="cell label-cell instance-content__Cl_h">Cl-</div>
+            <div class="cell data-cell instance-content__Cl_d " id="Cl">Cl-</div>
+            <div class="cell label-cell M_l">Массовая доля компонентов,
+                % от массы воздушно-сухой пробы
+            </div>
+            <div class="cell label-cell M__gumus_l">органика (гумус)</div>
+            <div class="cell data-cell M__gumus_d" id="mGumus">(гумус)</div>
+            <div class="cell label-cell M__NO3_l">Нитрат-ион NO3-</div>
+            <div class="cell data-cell M__NO3_d" id="mNO3">NO</div>
+            <div class="cell label-cell M__Cl_l">Хлор-ион Cl-</div>
+            <div class="cell data-cell M__Cl_d" id="mCl">Cl-</div>
+            <div class="cell label-cell M__Fe_l">Ион-железа Fe3+</div>
+            <div class="cell data-cell M__Fe_d" id="mFe">Fe3+</div>
+            <div class="cell label-cell pH_l">pH</div>
+            <div class="cell data-cell pH_d" id="pH">pH</div>
+            <div class="cell label-cell electrical-properties_l">Электрофизические</div>
+            <div class="cell label-cell ro_l">Удельное электрическое сопротивление</div>
+            <div class="cell data-cell ro_d" id="ro">ro</div>
+            <div class="cell label-cell I_l">Средняя плотность катодного тока I</div>
+            <div class="cell data-cell I_d" id="I">I</div>
+        </section>
+    </article>
+</section>
+<article class="table sulfate">
+    <section class="table__caption">
+        Степень агрессивного воздействия сульфатов в грунтах на бетоны
+    </section>
+    <section class="table__reference">
+        &laquo;Защита строительных конструкций от коррозии&raquo;.
+        Актуализированная редакция СНиП 2.03.11-85(Таблица В.1)
+    </section>
+    <section class="table__body d-grid table_sulf">
+        <div class="cell header-cell cement-base_h">Цементная основа бетона</div>
+        <div class="cell label-cell PC_l">Портландцемент по ГОСТ 10178, ГОСТ 31108</div>
+        <div class="cell label-cell PcPlus_l">
+            Портландцемент по ГОСТ 10178, ГОСТ 31108 с C3S шлакопортланд цемент
+        </div>
+        <div class="cell label-cell sulphate-cement_l">
+            Сульфатостойкие цементы по ГОСТ 22266
+        </div>
+        <div class="cell header-cell sulphate-aggress_h">
+            Сульфатная агрессивность по отношению к бетонам марки:
+        </div>
+        <div class="cell header-cell sulfate-aggress__W4_h">W4</div>
+        <div class="cell header-cell sulfate-aggress__W6_h">W6</div>
+        <div class="cell header-cell sulfate-aggress__W8_h">W8</div>
+        <div class="cell header-cell sulfate-aggress__W10W14_h">W10W14</div>
+        <div class="cell header-cell sulfate-aggress__W16W20_h">W16W20</div>
+        <div class="cell data-cell toPcW4_d" id="toPcW4">PCW4</div>
+        <div class="cell data-cell toPcW6_d" id="toPcW6">PCW6</div>
+        <div class="cell data-cell toPcW8_d" id="toPcW8">PCW8</div>
+        <div class="cell data-cell toPcW10W14_d" id="toPcW10W14">PCW10W14</div>
+        <div class="cell data-cell toPcW16W20_d" id="toPcW16W20">PCW16W20</div>
+        <div class="cell data-cell toPcPlusW4_d" id="toPcPlusW4">PcPlusW4</div>
+        <div class="cell data-cell toPcPlusW6_d" id="toPcPlusW6">+PCW6</div>
+        <div class="cell data-cell toPcPlusW8_d" id="toPcPlusW8">+PCW8</div>
+        <div class="cell data-cell toPcPlusW10W14" id="toPcPlusW10W14">+PCW10W14</div>
+        <div class="cell data-cell toPcPlusW16W20_d" id="toPcPlusW16W20">+PCW16W20</div>
+        <div class="cell data-cell toSulphateCementW4_d" id="toSulphateCementW4">PCW4</div>
+        <div class="cell data-cell toSulphateCementW6_d" id="toSulphateCementW6">PCW6</div>
+        <div class="cell data-cell toSulphateCementW8_d" id="toSulphateCementW8">PCW8</div>
+        <div class="cell data-cell toSulphateCementW10W14" id="toSulphateCementW10W14">PCW10W14</div>
+        <div class="cell data-cell toSulphateCementW16W20_d" id="toSulphateCementW16W20">PCW16W20</div>
+    </section>
+</article>
+<article class="table chloride">
+    <section class="table__caption">
+        Степень агрессивного воздействия хлоридов в грунтах на арматуру в ж.б. конструкциях
+    </section>
+    <section class="table__reference">
+        &laquo;Защита строительных конструкций от коррозии&raquo;.
+        Актуализированная редакция СНиП 2.03.11-85(Таблица В.2)
+    </section>
+    <section class="table__body d-grid table_Cl">
+
+        <div class="cell header-cell thickness_h">Толщина защитного слоя конструкции</div>
+        <div class="cell header-cell Cl-aggress_h">
+            Хлоридная агрессивность по отношению к бетонам марки:
+        </div>
+        <div class="cell header-cell Cl-aggress__W4W6_h">W4-W6</div>
+        <div class="cell header-cell Cl-aggress__W8_h">W8</div>
+        <div class="cell header-cell Cl-aggress__W10W14_h">W10-W14</div>
+
+        <div class="cell label-cell thickness_20_l">20мм</div>
+        <div class="cell data-cell t20-W4W6_d" id="to20W4W6">20W4W6</div>
+        <div class="cell data-cell t20-W8_d" id="to20W8">20W8</div>
+        <div class="cell data-cell t20-W10W14_d" id="to20W10W14">20W10W14</div>
+
+        <div class="cell label-cell thickness_25_l">25мм</div>
+        <div class="cell data-cell t25-W4W6_d" id="to25W4W6">W4W6</div>
+        <div class="cell data-cell t25-W8_d" id="to25W8">W8</div>
+        <div class="cell data-cell t25-W10W14_d" id="to25W10W14">W10W14</div>
+
+        <div class="cell label-cell thickness_30_l">30мм</div>
+        <div class="cell data-cell t30-W4W6_d" id="to30W4W6">30W4W6</div>
+        <div class="cell data-cell t30-W8_d" id="to30W8">30W8</div>
+        <div class="cell data-cell t30-W10W14_d" id="to30W10W14">30W10W14</div>
+
+        <div class="cell label-cell thickness_50_l">50мм</div>
+        <div class="cell data-cell t50-W4W6_d" id="to50W4W6">W4W6</div>
+        <div class="cell data-cell t50-W8_d" id="to50W8">W8</div>
+        <div class="cell data-cell t50-W10W14_d" id="to50W10W14">W10W14</div>
+
+    </section>
+</article>
+<article class="table corrOnMet">
+    <section class="table__caption">
+        Степень агрессивного воздействия ...грунтов на металличесие конструкции
+    </section>
+    <section class="table__reference">
+        &laquo;Защита строительных конструкций от коррозии&raquo;.
+        Актуализированная редакция СНиП 2.03.11-85 (Таблица Х.5)
+    </section>
+    <section class="table__body d-grid table_CorrToMet">
+        <div class="cell header-cell underLevel_h">Ниже УГВ</div>
+        <div class="cell data-cell underLevel_d" id="underLevel">underLevel</div>
+        <div class="cell header-cell aboveLevel_h">Выше УГВ</div>
+        <div class="cell data-cell aboveLevel_d" id="aboveLevel">aboveLevel</div>
+    </section>
+</article>
+<article class="table corr">
+    <section class="table__caption">
+        Коррозийная агрессивность грунта
+    </section>
+    <section class="table__reference">
+        &laquo;Сооружения подземные. Общие требования к защите от коррозии&raquo;.
+        ГОСТ 9.602-2005 ЕСЭКС (Таблицы 1,2,4)
+    </section>
+    <section class="table__body d-grid table_Corr">
+        <div class="cell header-cell material_h">Материал покрытия</div>
+        <div class="cell header-cell factor_h">Показатель воздействия</div>
+        <div class="cell header-cell corr-aggress_h">Коррозийная агрессивность</div>
+        <div class="cell header-cell corr-aggress__factor_h">по показателю</div>
+        <div class="cell header-cell corr-aggress__result_h">результирующая</div>
+
+        <div class="cell label-cell materialFe_l">Углеродистая низколегированная сталь</div>
+        <div class="cell label-cell factorFe__ro_l">по удельному электрическому сопротивлению</div>
+        <div class="cell data-cell factorFe__ro_d" id="stalRo">ro_d</div>
+        <div class="cell label-cell factorFe__i_l">по плотности катодного тока</div>
+        <div class="cell data-cell factorFe__i_d" id="stalI">i_d</div>
+        <div class="cell data-cell materialFe__result_d" id="stalRes">res</div>
+
+        <div class="cell label-cell materialPb_l">Свинцовая оболочка кабеля</div>
+        <div class="cell label-cell factorPb__pH_l">по значению pH</div>
+        <div class="cell data-cell factorPb__pH_d" id="pbPh">pHd</div>
+        <div class="cell label-cell factorPb__gumus_l">по содержанию органики</div>
+        <div class="cell data-cell factorPb__gumus_d" id="pbGumus">gumus</div>
+        <div class="cell label-cell factorPb__NO3_l">по содержанию нитрат-ионов NO3</div>
+        <div class="cell data-cell factorPb__NO3_d" id="pbNO">NO3</div>
+        <div class="cell data-cell materialPb__result_d" id="pbRes">resPb</div>
+        <div class="cell label-cell materialAl_l align_left">Алюминевая оболочка кабеля</div>
+        <div class="cell label-cell factorAl__pH_l">по значению pH</div>
+        <div class="cell data-cell factorAl__pH_d" id="alPh">pH</div>
+        <div class="cell label-cell factorAl__Cl_l">по содержанию Cl-</div>
+        <div class="cell data-cell factorAl__Cl_d" id="alCl">Cl-</div>
+        <div class="cell label-cell factorAl__Fe_l">по содержанию Fe3+</div>
+        <div class="cell data-cell factorAl__Fe_d" id="alFe">Fe3+</div>
+        <div class="cell data-cell materialAl__result_d" id="alRes">resAl</div>
+    </section>
+</article>
+</article>
+<footer>
+
+</footer>
+
+
+</body>
+
+<script type="text/javascript" src="js/onLoad.js"></script>
+</html>

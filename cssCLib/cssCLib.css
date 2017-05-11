@@ -1,0 +1,142 @@
+/*display-view*/
+.d-block{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.d-inline-block{
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.d-grid{
+    display: grid;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.d-flex_nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.d-none{
+    display: none;
+}
+
+/*format-text*/
+.block__caption{
+    font: 1.4em 'Times New Roman';
+    color: #a52a2a;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.super {
+    vertical-align: super;
+    font-size: .8em;
+}
+
+.sub {
+    vertical-align: sub;
+    font-size: .8em;
+}
+
+/*tables*/
+.d-table{
+    display: table;
+}
+
+.d-row{
+    display: table-row;
+}
+
+.d-cell{
+    display: table-cell;
+}
+
+.table{
+    margin: 10px;
+    vertical-align: top;
+    font: 1em 'Arial Narrow', sans-serif;
+    box-sizing: border-box;
+}
+
+.table__caption{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #00008b;
+
+}
+
+.table__reference{
+    text-align: left;
+    font-size: 0.8em;
+    font-style: italic;
+    text-indent: 5mm;
+}
+
+.header-cell{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.label-cell{
+    text-align: left;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.data-cell{
+    text-align: center;
+}
+
+.input-cell{
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: #00008b;
+    width: 100%;
+    text-align: center;
+}
+
+.input-cell:focus{
+    transform: scale(1.2);
+    transform-origin: top right;
+    transition: .5s;
+}
+
+.input-cell:not(:focus){
+    transition: .5s ;
+}
+
+.cell {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    padding: 1px 1px;
+    margin-left: -1px;
+
+}
+
+
+
+
+

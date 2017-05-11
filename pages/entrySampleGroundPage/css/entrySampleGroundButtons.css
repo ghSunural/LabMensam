@@ -1,0 +1,38 @@
+/*buttons*/
+
+.addNewSampleGroundButton{
+    background: url("../resource/ico/layer-add.png") no-repeat;
+    background-position: center;
+}
+
+.deleteSampleGroundButton{
+    background: url("../resource/ico/layer-delete.png") no-repeat;
+    background-position: center;
+}
+
+.amendSampleButton{
+    background: url("../resource/ico/amend.jpg") no-repeat;
+    background-position: center;
+
+}
+
+.reportCompleteButton {
+    background: url("../resource/ico/document_edit.png") no-repeat;
+    background-position: center;
+}
+
+.saveSampleButton{
+    background: url("../resource/ico/save.png") no-repeat;
+    background-position: center;
+}
+
+.img-button {
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-position: center;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+

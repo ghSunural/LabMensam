@@ -1,0 +1,29 @@
+.table_totalGround {
+
+    grid-template-areas:
+    "IGE_h sa_h sa_h sa_h cla_h cla_h grToSteel_h grToSteel_h  grGOST_h grGOST_h grGOST_h"
+    "IGE_h";
+
+}
+
+.IGE_h {
+    grid-area: IGE_h;
+
+}
+
+.sulfAgress_h{
+    grid-area: sa_h;
+}
+
+.clorideAgress_h{
+    grid-area: cla_h;
+}
+
+.grGOST_h{
+    grid-area: grGOST_h;
+}
+.grToSteel_h{
+    grid-area: grToSteel_h;
+}
+
+

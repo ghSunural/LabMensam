@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link href="../pages/surveyObjectPage/css/surveyObjectPage.css" rel="stylesheet">
+    <link href="../pages/surveyObjectPage/css/surveyObjectFormButtons.css" rel="stylesheet">
+    <link href="../cssCLib/cssCLib.css" rel="stylesheet">
+</head>
+<body class="surveyObjectForm">
+
+<article class="general-info">
+
+    <header class="block__caption">
+        Объект
+    </header>
+    <form class="table survey-object_title table"
+          name="entryObjectInfoForm">
+
+        <input class="cell input-cell"
+               type="text"
+               id="titleMark"
+               name="titleMark"
+               title="Шифр объекта"
+               placeholder="Шифр объекта"><br>
+        <textarea class="cell input-cell"
+                  id="titleName"
+                  title="Наименование объекта">
+        </textarea>
+        <div class="cell label-cell temperatura_l">
+            Среднегодовая температура воздуха t &deg;C
+        </div>
+        <input class="cell input-cell temperatura_in" type="text"
+               id="temperatura"
+               name="temperatura"
+               title=""
+               placeholder="температура"/>
+        <div class="cell label-cell wet_l">Зона
+            влажности</div>
+        <select class="cell input-cell wet"
+                id="wet"
+                name="wet">
+            <option class="input-cell">Влажная</option>
+            <option class="input-cell">Сухая</option>
+            <option class="input-cell">Нормальная</option>
+        </select>
+    </form>
+
+    <section class="">
+        <header class="block__caption">
+            Данные по объекту
+        </header>
+        <section class="">
+            <ol>
+                <li>
+                    <a href="entrySampleGroundPage.html" target="_blank" title="">Агрессивность грунтов</a>
+                </li>
+                <li>
+                    <a href="" target="_blank" title="">Агрессивность воды</a>
+                </li>
+                <li>
+                    <a href="" target="_blank" title="">Расчет глубины промерзания</a>
+                </li>
+            </ol>
+
+        </section>
+
+    </section>
+
+</article>
+
+
+
+</body>
+</html>

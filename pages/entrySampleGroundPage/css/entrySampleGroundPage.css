@@ -1,0 +1,35 @@
+html {
+    background: #cfcfcf;
+}
+
+.entrySampleGroundForm {
+    position: relative;
+    margin: 0 auto;
+    font: 20px 'Times New Roman', 'Arial', sans-serif;
+    background: linear-gradient(to right, #cecece, #f5f5dc 50%);
+    border: 2px solid #00008b;
+}
+
+.sampleList {
+    border: 2px solid #ff0000;
+    width: 250px;
+    min-height: 300px;
+    margin: 5px;
+}
+
+.sampleData {
+    border: 2px solid #00008b;
+}
+
+.toolbar{
+    box-sizing: border-box;
+    border: 1px solid #960000;
+    background: #7cbcff;
+    margin: 10px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bg{
+    background: #cfcfcf;
+}

@@ -1,0 +1,32 @@
+/*buttons*/
+
+.imgButton {
+    width: 90px;
+    height: 50px;
+    padding: 40px;
+    background: #f0ffff no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 20px;
+    border-radius: 5px;
+    border: 4px #00008b;
+    box-shadow: 5px 5px 5px 5px #808080;
+}
+
+
+
+.createNewObjectButton {
+    background-image: url("../resource/ico/add.png");
+
+}
+
+.openFileButton {
+    background-image: url("../resource/ico/folder.png");
+
+}
+
+
+
+
+
+
